@@ -61,11 +61,11 @@ speakers.map((speaker) => {
     <div >
         <div style="padding-left: 15px !important;" class="">
             <div style="margin-bottom: 8px !important" class="speaker-image">
-                <img  src="${speaker.image}" alt="${speaker.name}">
-                <div>${speaker.name}</div>
+                <img src="${speaker.image}" alt="${speaker.name}">
+                <div style="text-align: center;">${speaker.name}</div>
             </div>
         </div>
-        <div  class="col-md-9 mt-4 mt-md-0 mb-4">
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center; max-width: none;"  class="col-md-9 mt-4 mt-md-0 mb-4">
             <h5>${speaker.title}</h5>
             <p>${speaker.company}</p>
             <p class="mt-4">${speaker.description}</p>
