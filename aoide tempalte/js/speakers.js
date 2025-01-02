@@ -58,7 +58,7 @@ speakers.map((speaker) => {
         )
         .join("");
     const speakerHTML = `
-    <div style=" flex: 1 1 calc(25% - 16px); max-width: calc(25% - 16px);">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
         <div style="padding-left: 15px !important;" class="">
             <div style="margin-bottom: 8px !important" class="speaker-image">
                 <img src="${speaker.image}" alt="${speaker.name}">
