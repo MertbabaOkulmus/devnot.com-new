@@ -1,77 +1,51 @@
 const speakers = [
     {
-        name: "Adem Şeker",
-        title: "Yazılım ve Çözüm Bölüm Yöneticisi",
-        company: "Tübitak Bilgem YTE",
-        description: "",
-        image: "images/speakers/adem-seker.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ademseker/"},
-        ]
-      },
-      {
-        name: "Ali Tuğlu",
+        name: "Ivan Kulis",
         title: "CEO",
-        company: "AlbarakaTech Global",
-        image: "images/speakers/ali-tuglu.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ali-tuglu-27a86a15/"},
-        ]
-      },
-      {
-        name: "İlker Altıntaş",
-        title: "Founder, Chief Advisor",
-        company: "NIA Technology Advisory",
-        image: "images/speakers/ilker-altintas.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ilker-altintas-phd-71b5325/"},
-        ]
-      },
-      {
-        name: "Lemi Orhan Ergin",
-        title: "Co-founder",
-        company: "Craftgate",
-        image: "images/speakers/lemi-orhan-ergin.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/lemiorhan/"},
-        ]
-      },
-      {
-        name: "Merve Uçarkoşar",
-        title: "EMEA Delivery Director",
-        company: "Alex Solutions",
-        image: "images/speakers/merve-ucarkosar.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/merve-ucarkosar/"},
-        ]
-      },
-      {
-        name: "Nilay Azizoğlu",
-        title: "CIO",
-        company: "Setur",
-        image: "images/speakers/nilay-azizoglu.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/nilayazizoglu/"},
-        ]
-      },
-      {
-        name: "Olcay Atlıoğlu",
-        title: "CIO",
-        company: "Halkbank",
-        image: "images/speakers/olcay-atlioglu.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/olcay-atlio%C4%9Flu-231a0120/"},
-        ]
-      },
-      {
-        name: "Taylan Güney",
-        title: "CTO",
-        company: "TOM Bank",
-        image: "images/speakers/taylan-guney.jpg",
-        social: [ 
-            { platform: "Linkedin", url:  "https://www.linkedin.com/in/taylan-guney-2239974/"},
-        ]
-      }
+        company: "Albaraka Bank",
+        description:
+            "",
+        image: "img/t3.jpg",
+        social: [
+            { platform: "TW", url: "https://twitter.com/ivan_kulis" },
+            { platform: "Face", url: "https://facebook.com/ivan.kulis" },
+        ],
+    },
+    {
+        name: "Marco Furius",
+        title: "CEO",
+        company: "Albaraka Bank",
+        description:
+            "",
+        image: "img/t4.jpg",
+        social: [
+            { platform: "TW", url: "https://twitter.com/marco_furius" },
+            { platform: "LkIn", url: "https://linkedin.com/in/marcofurius" },
+        ],
+    },
+    {
+        name: "Nia Johnson",
+        title: "CEO",
+        company: "Albaraka Bank",
+        description:
+            "",
+        image: "img/t5.jpg",
+        social: [
+            { platform: "LkIn", url: "https://linkedin.com/in/niajohnson" },
+        ],
+    },
+    {
+        name: "Ivan Kulis",
+        title: "CEO",
+        company: "Albaraka Bank",
+        description:
+            "",
+        image: "img/t3.jpg",
+        social: [
+            { platform: "TW", url: "https://twitter.com/ivan_kulis" },
+            { platform: "Face", url: "https://facebook.com/ivan.kulis" },
+        ],
+    },
 ];
 
 const container = document.getElementById("speakers-container");
