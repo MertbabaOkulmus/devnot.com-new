@@ -1,43 +1,77 @@
 const speakers = [
     {
-        name: "Ivan Kulis",
-        title: "chief economist",
-        company: "some company name, city",
-        description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.",
-        image: "img/t3.jpg",
-        social: [
-            { platform: "Twitter", url: "https://twitter.com/ivan_kulis" },
-            { platform: "Facebook", url: "https://facebook.com/ivan.kulis" },
-            { platform: "Behance", url: "https://behance.net/ivankulis" },
-        ],
-    },
-    {
-        name: "Marco Furius",
-        title: "research director",
-        company: "some company name, city",
-        description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.",
-        image: "img/t4.jpg",
-        social: [
-            { platform: "Twitter", url: "https://twitter.com/marco_furius" },
-            { platform: "Facebook", url: "https://facebook.com/marco.furius" },
-            { platform: "Behance", url: "https://behance.net/marcofurius" },
-            { platform: "LinkedIn", url: "https://linkedin.com/in/marcofurius" },
-        ],
-    },
-    {
-        name: "Nia Johnson",
-        title: "head of innovation",
-        company: "some company name, city",
-        description:
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.",
-        image: "img/t5.jpg",
-        social: [
-            { platform: "Behance", url: "https://behance.net/niajohnson" },
-            { platform: "LinkedIn", url: "https://linkedin.com/in/niajohnson" },
-        ],
-    },
+        name: "Adem Şeker",
+        title: "Yazılım ve Çözüm Bölüm Yöneticisi",
+        company: "Tübitak Bilgem YTE",
+        description: "",
+        image: "images/speakers/adem-seker.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ademseker/"},
+        ]
+      },
+      {
+        name: "Ali Tuğlu",
+        title: "CEO",
+        company: "AlbarakaTech Global",
+        image: "images/speakers/ali-tuglu.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ali-tuglu-27a86a15/"},
+        ]
+      },
+      {
+        name: "İlker Altıntaş",
+        title: "Founder, Chief Advisor",
+        company: "NIA Technology Advisory",
+        image: "images/speakers/ilker-altintas.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/ilker-altintas-phd-71b5325/"},
+        ]
+      },
+      {
+        name: "Lemi Orhan Ergin",
+        title: "Co-founder",
+        company: "Craftgate",
+        image: "images/speakers/lemi-orhan-ergin.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/lemiorhan/"},
+        ]
+      },
+      {
+        name: "Merve Uçarkoşar",
+        title: "EMEA Delivery Director",
+        company: "Alex Solutions",
+        image: "images/speakers/merve-ucarkosar.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/merve-ucarkosar/"},
+        ]
+      },
+      {
+        name: "Nilay Azizoğlu",
+        title: "CIO",
+        company: "Setur",
+        image: "images/speakers/nilay-azizoglu.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/nilayazizoglu/"},
+        ]
+      },
+      {
+        name: "Olcay Atlıoğlu",
+        title: "CIO",
+        company: "Halkbank",
+        image: "images/speakers/olcay-atlioglu.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/olcay-atlio%C4%9Flu-231a0120/"},
+        ]
+      },
+      {
+        name: "Taylan Güney",
+        title: "CTO",
+        company: "TOM Bank",
+        image: "images/speakers/taylan-guney.jpg",
+        social: [ 
+            { platform: "Linkedin", url:  "https://www.linkedin.com/in/taylan-guney-2239974/"},
+        ]
+      }
 ];
 
 const container = document.getElementById("speakers-container");
