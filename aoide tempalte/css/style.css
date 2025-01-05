@@ -559,10 +559,6 @@ a:focus {
 main {
 	position: relative;
 	width: 100%;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-image: url('../img/background.jpg');
 }
 .content {
 	position: relative;
@@ -572,6 +568,14 @@ main {
 	margin: 0 auto;
 	height: 100vh;
 	/*overflow: hidden;*/
+}
+.bgcolor{
+	position: relative;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../img/background.jpg');
 }
 
 .content--reveal {
