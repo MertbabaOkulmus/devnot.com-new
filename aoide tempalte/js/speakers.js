@@ -1,7 +1,7 @@
 const speakers = [
     { 
         name: "Adem Şeker",
-        title: "Yazılım ve Çözüm Bölüm Yöneticisi",
+        title: "Bölüm Yöneticisi",
         company: "Tübitak Bilgem YTE",
         image: "img/speakers/adem-seker.jpg",
         url:  "https://www.linkedin.com/in/ademseker/"
@@ -65,14 +65,15 @@ speakers.map((speaker) => {
         <div style="padding-left: 15px !important;" class="">
             <div style="margin-bottom: 8px !important" class="speaker-image">
                 <img src="${speaker.image}" alt="${speaker.name}">
-                <div style="text-align: center; font-size: 20px !important;">${speaker.name}</div>
+                <div style="text-align: center; font-size: 22px !important; padding-top: 12px;">${speaker.name}</div>
             </div>
         </div>
         <div style="font-size: 16px !important; text-align: center; display: flex; flex-direction: column; justify-content: space-between; align-items: center; max-width: none;"  class="mt-4 mt-md-0 mb-4">
-            <h5>${speaker.title}</h5>
-            <p>${speaker.company}</p>
-            <a href="${speaker.url}" style="display: block; position: relative; z-index: 300003;" class="social-team mt-4">
-            <img width="30" height="30" src="./img/linkedin.svg" alt="">
+            <p>${speaker.company}</p>    
+            <p>${speaker.title}</p>
+            
+            <a href="${speaker.url}" style="display: block; position: relative; margin-top: -30px" class="social-team mt-4">
+                <img width="30" height="30" src="./img/linkedin.svg" alt="">
             </a>
         </div>
     </div>
