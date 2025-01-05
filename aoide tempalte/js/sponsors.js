@@ -33,10 +33,11 @@ const galleryContainer = document.getElementById("gallery-group"); // Ana contai
 sections.forEach((section) => {
     // Başlık kısmı
     const sectionDiv = document.createElement("div");
-    sectionDiv.className = "mb-5";
-
+    //sectionDiv.className = "mb-5";
+    sectionDiv.style=" margin-bottom: 4rem";
     const titleDiv = document.createElement("div");
-    titleDiv.className = "offset-md-3";
+    //titleDiv.className = "offset-md-3";
+
     titleDiv.innerHTML = `
         <h4>${section.title}</h4>
         <div class="title-page-line mt-2"></div>
