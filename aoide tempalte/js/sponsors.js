@@ -33,13 +33,13 @@ const galleryContainer = document.getElementById("gallery-group"); // Ana contai
 sections.forEach((section) => {
     // Başlık kısmı
     const sectionDiv = document.createElement("div");
-    sectionDiv.className = "mb-3";
+    sectionDiv.className = "mb-5";
 
     const titleDiv = document.createElement("div");
-    titleDiv.className = "offset-md-3 col-md-9";
+    titleDiv.className = "offset-md-3";
     titleDiv.innerHTML = `
         <h4>${section.title}</h4>
-        <div class="title-page-line mt-4 mb-5"></div>
+        <div class="title-page-line mt-2"></div>
     `;
 
     sectionDiv.appendChild(titleDiv);
@@ -51,7 +51,7 @@ sections.forEach((section) => {
     section.items.forEach((image, index) => {
         const colDiv = document.createElement("div");
         colDiv.className = `col-sm-6 col-md-4 mt-4`;
-
+   
         colDiv.innerHTML = `
             <a href="${image.url}" data-fancybox="gallery">
                 <div class="img-wrap gallery">
