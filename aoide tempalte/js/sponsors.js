@@ -2,30 +2,16 @@ const sections = [
     {
         title: "Platin Sponsor",
         items: [
-            { url: "img/gallery/1.jpg", alt: "Image 1" },
-            { url: "img/gallery/2.jpg", alt: "Image 2" },
-            { url: "img/gallery/3.jpg", alt: "Image 3" },
-            { url: "img/gallery/4.jpg", alt: "Image 4" },
+            { url: "img/sponsors/oobeya-logo.png", alt: "Oobeya", link: "https://oobeya.io/" },
+            { url: "img/sponsors/valven-logo.png", alt: "Valven", link: "https://www.valven.com/" }
         ],
     },
     {
         title: "Altın Sponsor",
         items: [
-            { url: "img/gallery/5.jpg", alt: "Image 5" },
-            { url: "img/gallery/6.jpg", alt: "Image 6" },
-            { url: "img/gallery/7.jpg", alt: "Image 7" },
-            { url: "img/gallery/8.jpg", alt: "Image 8" },
+            { url: "img/sponsors/logitech-logo.png", alt: "Logitech", link: "https://www.logitech.com/tr-tr" }
         ],
-    },
-    {
-        title: "Gümüş Sponsor",
-        items: [
-            { url: "img/gallery/9.jpg", alt: "Image 9" },
-            { url: "img/gallery/10.jpg", alt: "Image 10" },
-            { url: "img/gallery/11.jpg", alt: "Image 11" },
-            { url: "img/gallery/12.jpg", alt: "Image 12" },
-        ],
-    },
+    }
 ];
 
 const galleryContainer = document.getElementById("gallery-group"); // Ana container
@@ -34,12 +20,12 @@ sections.forEach((section) => {
     // Başlık kısmı
     const sectionDiv = document.createElement("div");
     //sectionDiv.className = "mb-5";
-    sectionDiv.style=" margin-bottom: 4rem";
+    sectionDiv.style=" margin-bottom: 4rem; position: relative; width: 100%; display: block;";
     const titleDiv = document.createElement("div");
     //titleDiv.className = "offset-md-3";
 
     titleDiv.innerHTML = `
-        <h4>${section.title}</h4>
+        <h5 style="padding-left: 14px; color: #ffed84;">${section.title}</h5>
         <div class="title-page-line mt-2"></div>
     `;
 
@@ -48,14 +34,15 @@ sections.forEach((section) => {
     // Resim galerisi
     const rowDiv = document.createElement("div");
     rowDiv.className = "row";
+    rowDiv.style = "padding-top: 10px;";
 
     section.items.forEach((image, index) => {
         const colDiv = document.createElement("div");
         colDiv.className = `col-sm-6 col-md-4 mt-4`;
    
         colDiv.innerHTML = `
-            <a href="${image.url}" data-fancybox="gallery">
-                <div class="img-wrap gallery">
+            <a href="${image.link}">
+                <div>
                     <img src="${image.url}" alt="${image.alt}">
                 </div>
             </a>
