@@ -62,7 +62,7 @@ const container = document.getElementById("speakers-container");
 speakers.map((speaker) => {
   const speakerHTML = `
   <div style="text-align: center; display: flex; flex-direction: column; justify-content: space-between; align-items: center; min-height: 200px">
-      <div style="padding-left: 15px !important;" class="">
+      <div>
           <div style="margin-bottom: 8px !important" class="speaker-image">
               <img src="${speaker.image}" alt="${speaker.name}">
               <div style="text-align: center; font-size: 22px !important; padding-top: 12px;">${speaker.name}</div>
