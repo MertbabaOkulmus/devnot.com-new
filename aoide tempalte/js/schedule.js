@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             eventElement.style.marginBottom = "32px";
 
             let slotContent  = `
-                <div class="col-md-2 schedule-time">
+                <div id="width" class="col-md-2 schedule-time">
                     <p style="font-size: 1.3em; font-weight: 500;">${event.time}</p>
                 </div>
                 <div class="col-md-10 mt-4 mt-md-0" style="display: flex; align-items: center;">

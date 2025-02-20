@@ -1962,4 +1962,8 @@ ul.countdown li p {
 	#schedule img {
 		display: none;
 	}
+	#width {
+		width: auto !important; 
+        max-width: 100% !important; 
+	}
 }
