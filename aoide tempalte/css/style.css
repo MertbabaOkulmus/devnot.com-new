@@ -663,6 +663,11 @@ main {
 	/*overflow: hidden;*/
 }
 
+.content_schedule {
+	position: relative;
+	margin: 0 auto;
+}
+
 .bgcolor {
 	position: relative;
 	width: 100%;
@@ -1963,7 +1968,7 @@ ul.countdown li p {
 		display: none;
 	}
 	#width {
-		width: auto !important; 
-        max-width: 100% !important; 
+		width: auto !important;
+		max-width: 100% !important;
 	}
 }
