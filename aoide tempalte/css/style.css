@@ -1972,3 +1972,65 @@ ul.countdown li p {
 		max-width: 100% !important;
 	}
 }
+
+
+.event-card {
+	border: none;
+	border-radius: 15px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	margin-bottom: 2rem;
+	background: #ffffff;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.event-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.event-card-img-top {
+	border-radius: 15px 15px 0 0;
+	height: 200px;
+	object-fit: cover;
+}
+
+.event-card-body {
+	padding: 1.5rem;
+}
+
+.event-card-title {
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #2d3436;
+}
+
+.event-card-text {
+	color: #636e72;
+	font-size: 0.95rem;
+	margin-bottom: 1rem;
+}
+
+.event-card-participant {
+	color: #636e72;
+	font-size: 0.85rem;
+	margin-bottom: 0.3rem;
+}
+
+.event-card-date-place {
+	color: #636e72;
+	font-size: 0.85rem;
+	font-weight: 500;
+	margin-bottom: 0.3rem;
+}
+
+.event-caption {
+	position: absolute;
+	top: 165px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	background: #ffffff;
+	padding: 5px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	right: 5px;
+}
