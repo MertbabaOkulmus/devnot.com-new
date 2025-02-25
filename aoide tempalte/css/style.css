@@ -2023,14 +2023,20 @@ ul.countdown li p {
 	margin-bottom: 0.3rem;
 }
 
+.event-card-img-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
 .event-caption {
-	position: absolute;
-	top: 165px;
-	text-align: center;
-	color: rgb(0, 0, 0);
-	background: #ffffff;
-	padding: 5px;
-	font-size: 0.75rem;
-	font-weight: 500;
-	right: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
